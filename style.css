@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 50%;
+    background: lime;
+    margin: auto;
+    align-items: center;
+    padding:10px;
+}
+li{
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+.form-control{
+    width: 350px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.btn{
+    padding: 9px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-color: black;
+}
+li{
+    width: 100%;
+    padding: 10px;
+
+}
+.list{
+    width: 80%;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-around;
+}
+.titles{
+    width: 80%;
+}
+.delete-btn{
+    padding: 5px;
+    color: blue;
+    background-color: red;
+    border-color: red;
+     font-weight: bold;
+     font-size: 18px;
+
+}
+.edit{
+    width: 70px;
+    padding: 5px;
+    background-color: yellow;
+    border-color: yellow;
+    color: lime;
+    font-weight: bold;
+    font-size: 18px;
+}
